@@ -1,0 +1,13 @@
+Source: edgetpudemo
+Maintainer: AIY Projects <support-aiyprojects@google.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://aiyprojects.withgoogle.com/
+
+Package: edgetpudemo
+Architecture: all
+Depends: ${misc:Depends},
+         python3-edgetpuvision
+Description: Edge TPU demo script
+ Script to demonstrate TPU vs CPU performance.
+
