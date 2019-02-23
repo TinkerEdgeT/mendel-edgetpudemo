@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-  <title>Coral Web Panel</title>
+  <title>Edge TPU Performance Demo</title>
   <link rel="icon" type="image/png" sizes="16x16" href="favicon.png"/>
   <link rel="stylesheet" type="text/css" href="coral.css">
   <script type="text/javascript" src="protobuf.min.js"></script>
@@ -9,19 +9,25 @@
   <script type="text/javascript" src="broadway/Decoder.js"></script>
   <script type="text/javascript" src="broadway/Player.js"></script>
   <script type="text/javascript" src="ws_client.js"></script>
+  <style>
+    .description {
+      max-width: 960px; /* This matches the video width */
+    }
+  </style>
 </head>
 <body>
-  <img src="coral_logo.png" width="100em" style="padding-bottom:10px"/>
-  <div>
+  <img src="coral_logo.png" width="100em" style="padding-bottom:10px" alt="Coral" />
+  <div class="description">
   <h1>Edge TPU Performance Demo</h1>
-  <h2>Object detection and classification</h2>
-  <p>The following program demonstrates the processing power of the Edge TPU by
-  running MobileNet model that can concurrently identify and classify multiple
-  objects in a video. This demo is running a model with the MobileNet SSD v2
-  architecture, trained to detected 90 different object types from the COCO
-  dataset.
+  <p>The video below demonstrates the realtime processing power of the Edge TPU by
+    running a MobileNet SSD model that can identify and classify multiple objects.
+    The footage of the cars is a recording, but the MobileNet model is executing in
+    realtime on your Coral Dev Board to detect each car indicated with a box
+    (limited to 20 detected cars).</p>
+  <p>In the terminal where you started the demo, press the N key to switch between
+    running the model on either the Edge TPU or the CPU (quad-core Cortex-A53).</p>
   </p>
-  <div>
+  </div>
   <div id="container"></div>
 </body>
 </html>
