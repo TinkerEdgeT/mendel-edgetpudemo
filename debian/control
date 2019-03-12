@@ -1,5 +1,5 @@
 Source: edgetpudemo
-Maintainer: AIY Projects <coral-support@google.com>
+Maintainer: Coral <coral-support@google.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
 Homepage: https://aiyprojects.withgoogle.com/
