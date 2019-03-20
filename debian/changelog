@@ -1,3 +1,10 @@
+edgetpudemo (2-1) mendel-chef; urgency=medium
+
+  * Add separate high-res video file for desktop rendering.
+  * Allow truck to be detected in addition to the car.
+
+ -- Coral <coral-support@google.com>  Tue, 19 Mar 2019 17:08:25 -0700
+
 edgetpudemo (1.0-1) unstable; urgency=low
 
   * Initial release.
