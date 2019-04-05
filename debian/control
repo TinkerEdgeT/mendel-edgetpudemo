@@ -1,11 +1,15 @@
 Source: edgetpudemo
 Maintainer: Coral <coral-support@google.com>
 Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.6
-Homepage: https://aiyprojects.withgoogle.com/
+Section: misc
+Priority: optional
+Standards-Version: 3.9.8
+Homepage: https://coral.withgoogle.com/
 
 Package: edgetpudemo
 Architecture: all
+Section: misc
+Priority: optional
 Depends: ${misc:Depends},
          python3-edgetpuvision
 Description: Edge TPU demo script
