@@ -1,3 +1,9 @@
+edgetpudemo (3-1) mendel-day; urgency=medium
+
+  * Cut for day release.
+
+ -- Coral <coral-support@google.com>  Mon, 07 Oct 2019 13:21:20 -0500
+
 edgetpudemo (2-1) mendel-chef; urgency=medium
 
   * Add separate high-res video file for desktop rendering.
